@@ -1,0 +1,55 @@
+body {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.yellow {
+    color: yellow;
+}
+
+#img-div {
+    height: 600px;
+    width: 600px;
+    border: 1px  solid black;
+    border-radius: 2px;
+    /* text-align: center; */
+}
+
+img {
+    /* User Story #8  : responsively resize */
+    /* max-width: 100%; */ /* the image is only 480px X 360px in width */
+    /* height: auto; */
+    /* User Story #9 follows : centered within parent element */
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gcb {
+    height: 500px;
+    width: 500px;
+    border: 1px  solid black;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.resize {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#img-caption {
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bio {
+    max-width: 550px;
+}
+
